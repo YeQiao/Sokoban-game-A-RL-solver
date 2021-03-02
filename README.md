@@ -2,29 +2,23 @@
 
 All level.txt should stay under sokobanLevels folder. Benchmark levels are already inside.
 How to run:
-
 `python sokoban.py level.txt`
-```
-git status
-git add
-git commit
-```
+
 
 
 FOR Q-learning
 Frst: install gym toolkit
 ```
-	git clone https://github.com/openai/gym
-	cd gym
-	pip install -e .
+git clone https://github.com/openai/gym
+cd gym
+pip install -e .
 ```
 Seond: 
-```
 install gym-sokoban extension
-	git clone git@github.com:mpSchrader/gym-sokoban.git
-	cd gym-sokoban
-	pip install -e .
-
+```
+git clone git@github.com:mpSchrader/gym-sokoban.git
+cd gym-sokoban
+pip install -e .
 ```
 third: replace the sokoban_env.py with the our version.
 
